@@ -13,7 +13,7 @@ def muat_data():
 def simpan_data(data):
     with open(FILE_DATABASE, "w") as file:
         json.dump(data, file, indent=4)
-=====
+        
 #Fungsi validasi tanggal lahir
 
 def validasi_tanggal_lahir(tanggal):
